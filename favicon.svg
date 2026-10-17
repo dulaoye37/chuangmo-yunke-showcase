@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad1)"/>
+  
+  <!-- CM Letters -->
+  <text x="50" y="62" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">CM</text>
+  
+  <!-- 3D Cube Icon (small) -->
+  <g transform="translate(70, 25) scale(0.4)">
+    <path d="M20 10 L30 15 L30 35 L20 40 L10 35 L10 15 Z" fill="white" opacity="0.9"/>
+    <path d="M20 10 L30 15 L20 20 L10 15 Z" fill="white" opacity="0.7"/>
+    <path d="M30 15 L30 35 L20 40 L20 20 Z" fill="white" opacity="0.5"/>
+  </g>
+</svg>
